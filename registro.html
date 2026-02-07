@@ -18,6 +18,68 @@
 
 <body>
 
+  <header>
+    <figure>
+      <img width="150" src="../img/common/logo_conqueblocks.avif" alt="Logotipo de ConquerBlocks">
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/quienes_somos.html">Quienes Somos</a></li>
+          <li><a href="/cursos.html">Cursos</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+          <li><a href="/login.html">Inicia Sesión</a></li>
+          <li>Registro</li>
+          <li><a href="/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </figure>
+  </header>
+
+  <main>
+    <h1>Regístrate con Nosotros</h1>
+    <p>Rellena el siguiente formulario con tus datos:</p>
+    <form action="post" enctype="multipart/form-data">
+
+      <p>
+        <label for="name">Nombre completo</label>
+        <input type="text" name="name" id="name">
+      </p>
+      <p>
+        <label for="birthdate">Fecha de nacimiento</label>
+        <input type="date" name="birthdate" id="birthdate">
+      </p>
+      <p>
+        <label for="email">Correo electrónico</label>
+        <input type="email" name="email" id="email" required>
+      </p>
+      <p>
+        <label for="adress">Direccion</label>
+        <input type="text" name="adress" id="adress">
+      </p>
+      <p>
+        <label for="web">Página web</label>
+        <input type="url" name="web" id="web">
+      </p>
+      <p>
+        <label for="img">Foto de perfil</label>
+        <input type="file" name="img" id="img">
+      </p>
+      <p>
+        <label for="bio">Biografía</label>
+        <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+      </p>
+      <p>
+        <button>Enviar</button>
+        <input type="reset" value="Borrar Formulario">
+      </p>
+
+    </form>
+  </main>
+  <footer>
+    <p>© Conquer Blocks 2026 - <a href="aviso_legal.html">Aviso Legal</a></p>
+    <br>
+
+  </footer>
 
 </body>
 
